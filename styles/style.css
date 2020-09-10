@@ -1,0 +1,119 @@
+#boton{
+    padding:30px;
+    font-size: 0.5em;
+    background-color: rgba(255, 255, 255, .2);
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+#boton:hover{
+    background-color: white;
+    color:black;
+    cursor:pointer;
+}
+#nav-tab{
+    margin:1em 20em;
+}
+.menu-icon > .line {
+    background-color: #292929;
+    height: 8px;
+    width: 2.5em;
+    display: block;
+    border-radius: 10px;
+}
+h1{
+    font-size: 3em;
+}
+#entrance{
+    background-image:url("../images/fontanero.jpg"),url("../images/tuberias.jpg");
+    background-position:right bottom,left top ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+    color: #F9DF41;
+    text-shadow: 2px 2px 2px #B2BCBA;
+    padding-top: 2em;
+    text-align:center;
+    font-size: 5em;
+}
+figure{
+    width: 25%;
+    float:left;
+    margin:2em 2em;
+    text-align: center;
+    padding:0;
+}
+#ventajas{
+    font-size: 1.9em;
+}
+#introduccion{
+    font-size: 2.8em;
+    margin:0 6em;
+}
+h2{
+    font-size: 4em;
+    text-align: center;
+}
+.input{
+    margin:0.3em 0;
+    border-radius: 50px;
+    width: 18em;
+    padding:18px;
+    color:white;
+    background:rgba(1,1,1,0);
+    border:2px solid white;
+}
+textarea{
+    margin: 0.3em 0;
+    border-radius: 50px;
+    padding:20px; 
+    width: 18em; 
+    height: 8em;
+    color:white;
+    background:rgba(1,1,1,0);
+    border:2px solid white;
+}
+form{
+    font-size: 1.7em;
+    width: 20em;
+    padding:50px 40em;
+    transform:rotate(-10deg);
+}
+.checkbox{
+    width: 1em;
+    height: 1em;
+}
+#submit{
+    margin-left: 15em;
+    border-radius: 50px;
+    padding:17px;
+    background:rgba(1,1,1,0);
+    color: white;
+    border:2px solid white;
+}
+#submit:hover{
+    background:white;
+    color:black;
+    cursor: pointer;
+}
+#contact{
+    background-color: black;
+    transform:rotate(10deg);
+    border-radius: 300px;
+    color:white;
+}
+::placeholder{
+    color:white;
+}
+#yellow{
+    background-color: #F9DF41;
+}
+footer{
+    margin-top: 8em;
+    margin-left: 8em;
+    font-size: 2em;
+}
+.image{
+    margin-bottom: 2em;
+    margin-right: 3em;
+}
